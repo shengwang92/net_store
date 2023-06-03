@@ -308,16 +308,6 @@ const vector<string> split(const string& str, const string& pattern) {
 - Layered System：分層的系統，客戶端不知道他聯絡的是不是最終伺服器。
 - Code on Demand（可選）：伺服器可以將能力擴充到客戶端，如果客戶端可以執行的話。這個功能是可選擇的。
 
-### Why use the REST style to set up the server?
-
-- 可更高效利用快取來提高回應速度
-- 通訊本身的無狀態性可以讓不同的伺服器的處理一系列請求中的不同請求，提高伺服器的擴充性
-- 瀏覽器即可作為客戶端，簡化軟體需求
-- 相對於其他疊加在HTTP之上的機制，REST的軟體相依性更小
-- 不需要額外的資源發現機制
-- 在軟體技術演進中的長期的相容性更好
-
-![Resful](./images/resful.png)
 ## About client
 
 |Folder| Illustration|
