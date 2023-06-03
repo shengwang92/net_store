@@ -14,7 +14,7 @@
 **Database**
 
 Insert a new data about member with attributes
-_id,name_member,date_enrolled,email_member,password_member,balance_member
+_id , name_member , date_enrolled , email_member , password_member , balance_member.
 
 *balance_member*: 會員的餘額,註冊的時候是0元
 
@@ -55,7 +55,7 @@ string enroll_member(string name_member, string email_member, string password_me
 **Database**
 
 Find data about member with attributes and return 
-_id,name_member,date_enrolled,email_member,password_member,balance_member
+_id , name_member , date_enrolled , email_member , password_member , balance_member.
 
 **Output**
 |Parameter| Type | Illustration |
@@ -264,7 +264,7 @@ string upload_commodity(string _id_buyer, string _id_seller, string _id_commdity
 ![Function](./images/ShopProject-spilit.drawio.png)
 
 ```cpp
-//商品列表:一次分割
+//分割商品列表
 const vector<string> split(const string& str, const string& pattern) {
     vector<string> result;
     string::size_type begin, end;
