@@ -1,5 +1,7 @@
 # **ShopProject**
 
+※If you just want to use the program, you can skip to the end to watch the instructions (如果只是想要使用程式，可以直接跳到最後觀看使用說明)
+
 ## Main program (Connect To Server)
 
 ### **Enroll Member 註冊會員**
@@ -286,10 +288,22 @@ const vector<string> split(const string& str, const string& pattern) {
     return result;
 }
 ```
-
-
 ## **GUI (QT)**
+## Registration screen (註冊畫面展示)
 
+## Login screen (登入畫面展示)
+
+## Main function screen (主要畫面展示)
+
+## Saving money (儲值畫面展示)
+
+## Display commodity (商品畫面展示)
+
+## Buy items (購買畫面展示)
+
+## Peddle items (販賣畫面展示)
+
+## Fool-proofing (防呆畫面展示)
 
 ## 
 
@@ -316,6 +330,18 @@ const vector<string> split(const string& str, const string& pattern) {
 | HTTPRequestPostTest | Project to test http request about post ,z.B:http://140.113.213.57:5125/enroll_member |
 | FunctionTest |Project to test all the functions with response of sting formed in JSON |
 | ResponseWithString |Project to test all the functions with response of sting formed in String |
+
+## **Instructions for use (使用說明)**
+
+### **1.**
+    我們提供兩個版本，分別是cmd的C++版和GUI的QT版，兩個都放在Client裡面
+    C++檔案位置 C++_Internet_store -> store -> ResponseWithString
+    QT檔案位置 QT_Internet_shop -> Internet_shop_
+    ※如要使用GUI請自行下載QT來使用
+
+### **2.**
+    請勿惡意塞資料到伺服器上
+
 
 ## **About reference**
 
