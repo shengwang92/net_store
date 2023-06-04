@@ -1,6 +1,6 @@
 # **ShopProject**
 
-※If you just want to use the program, you can skip to the end to watch the instructions (如果只是想要使用程式，可以直接跳到最後觀看使用說明)
+### **※If you just want to use the program, you can skip to the end to watch the instructions (如果只是想要使用程式，可以直接跳到最後觀看使用說明)**
 
 ## Main program (Connect To Server)
 
