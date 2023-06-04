@@ -156,6 +156,10 @@ def update_inventory_commodity(_id,variance):
     
     #更新新資料
     new_inventory=int(commodity['inventory'])-variance
+    if(new_inventory<=0):
+        new_data=old_data
+        write_data_commodity(new_data)
+        return
     old_data.append([
         _id,
         commodity['name_commodity'],
@@ -203,6 +207,11 @@ def enroll_member():
         0
     ]
     data_members=read_data_member()
+    #確認是否已經存在相同帳號
+    frame=pd.DataFrame(data_members[1:],columns =['_id', 'name_member', 'date_enrolled', 'email_member', 'password_member', 'balance_member'])
+    if(request_data['email_member'] in list(frame['email_member'])):
+        return "ENROLL FAILED: EMAIL: "+str(request_data['email_member'])+" HAS BEEN ENROLLED!"
+    #確認是否有
     data_members.append(new_member)
     write_data_member(data_members)
     logging.info("Enroll A New Member "+_id)
@@ -212,6 +221,8 @@ def enroll_member():
 @app.route('/login_member' , methods=['POST'])
 def login_member():
     request_data = request.get_json()
+    print(str(request_data))
+    logging.info("Data: "+str(request_data))
     database_member=pd.read_csv('data_member.csv')
     #搜尋有沒有該帳號
     index=-1
@@ -229,6 +240,7 @@ def login_member():
         retstring=""
         for i in member:
             retstring+=str(i)+","
+        logging.info("Return: "+str(retstring[:-1]))
         return retstring[:-1]
     else:
         logging.info("LOGIN FAILED:PASSWORD ERROR")
@@ -240,7 +252,9 @@ def store_balance():
     request_data = request.get_json()
     _id=request_data['_id']
     member=find_member(_id)
-    
+    logging.info("Data: "+str(request_data))
+    if(member==-1):
+        return "FAILED: UID IS INCORRECT"
     # #更新新資料
     new_balance=int(member['balance_member'])+int(request_data['balance_member'])
     update_balance_member(_id,int(request_data['balance_member']))
@@ -276,7 +290,8 @@ def view_commodity():
         for commodity in commoditys:
             tempstring+=str(commodity)+","
         retstring+=(tempstring[:-1]+":")
-    return retstring[:-2]
+    print(retstring)
+    return retstring
 
 #購買商品
 @app.route('/buy_commodity' , methods=['POST'])
