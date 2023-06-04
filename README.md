@@ -263,7 +263,7 @@ string upload_commodity(string _id_buyer, string _id_seller, string _id_commdity
 
 分割商品陣列的函數 Function to split an array of items
 
-![ 分割](./images/spilit.JPG)
+![ 分割](./images/split.JPG)
 
 ```cpp
 //分割商品列表
@@ -325,6 +325,7 @@ const vector<string> split(const string& str, const string& pattern) {
 _data_commodity_example.csv僅是範例，參考就好_
 _data_member_example.csv僅是範例，參考就好_
 
+#
 ## About client
 
 *C++_Internet_store提供使用者基礎的網路商店功能*
@@ -335,6 +336,7 @@ _data_member_example.csv僅是範例，參考就好_
 | C++_Internet_store |Provide C++ version of the basic online store function |
 | QT_Internet_shop |Use QT to provide GUI to make users more convenient to use |
 
+##
 ## **Instructions for use (使用說明)**
 
 ### **1.**
@@ -351,7 +353,7 @@ _data_member_example.csv僅是範例，參考就好_
 ![ 流程圖](./images/h1.jpg)
 ### **4.**
     程式 & 伺服器 & 資料互動 模式簡略圖
-![ 互動圖](./images/JPG)
+![ 互動圖](./images/operate.JPG)
 
 ## **About reference**
 
