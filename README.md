@@ -263,7 +263,7 @@ string upload_commodity(string _id_buyer, string _id_seller, string _id_commdity
 
 分割商品陣列的函數 Function to split an array of items
 
-![Function](./images/ShopProject-spilit.drawio.png)
+![ 分割](./images/spilit.JPG)
 
 ```cpp
 //分割商品列表
@@ -290,26 +290,26 @@ const vector<string> split(const string& str, const string& pattern) {
 ```
 ## **GUI (QT)**
 ## Registration screen (註冊畫面展示)
-
+![ 註冊](./images/enroll.png)
 ## Login screen (登入畫面展示)
-
+![ 登入](./images/login.png)
 ## Main function screen (主要畫面展示)
-
+![ Main](./images/mainwindows.png)
 ## Saving money (儲值畫面展示)
-
+![ 儲值](./images/money.png)
 ## Display commodity (商品畫面展示)
-
+![ 商品](./images/view.png)
 ## Buy items (購買畫面展示)
-
+![ 購買](./images/buy.png)
 ## Peddle items (販賣畫面展示)
-
+![ 販賣](./images/sell.png)
 ## Fool-proofing (防呆畫面展示)
-
+![ 防呆](./images/foolproof.png)
 ## 
 
 ## About server
 
-![ 架構圖](./images/structure.png)
+![ 架構圖](./images/structure.JPG)
 
 使用 **表現層狀態轉換 (Representational state transfer)** 風格建立伺服器，根基於超文字傳輸協定（HTTP）之上，提供全球資訊網絡服務。
 
@@ -345,7 +345,13 @@ _data_member_example.csv僅是範例，參考就好_
 
 ### **2.**
     請勿惡意塞資料到伺服器上
-
+    
+### **3.**
+    程式流程圖展示
+![ 流程圖](./images/h1.jpg)
+### **4.**
+    程式 & 伺服器 & 資料互動 模式簡略圖
+![ 互動圖](./images/JPG)
 
 ## **About reference**
 
