@@ -1,6 +1,7 @@
 # **ShopProject**
 
-### **※If you just want to use the program, you can skip to the end to watch the instructions (如果只是想要使用程式，可以直接跳到最後觀看使用說明)**
+### **※If you just want to use the program, you can skip to the end to watch the instructions**
+### **(如果只是想要使用程式，可以直接跳到最後觀看使用說明)**
 
 ## Main program (Connect To Server)
 
@@ -322,14 +323,14 @@ const vector<string> split(const string& str, const string& pattern) {
 - Layered System：分層的系統，客戶端不知道他聯絡的是不是最終伺服器。
 - Code on Demand（可選）：伺服器可以將能力擴充到客戶端，如果客戶端可以執行的話。這個功能是可選擇的。
 
-*data_commodity_example.csv僅是範例，參考就好*
-*data_member_example.csv僅是範例，參考就好*
+#### *data_commodity_example.csv僅是範例，參考就好*
+#### *data_member_example.csv僅是範例，參考就好*
 
 #
 ## About client
 
-*C++_Internet_store提供使用者基礎的網路商店功能*
-*QT_Internet_shop利用QT提供GUI來讓使用者更方便使用*
+#### *C++_Internet_store提供使用者基礎的網路商店功能*
+#### *QT_Internet_shop利用QT提供GUI來讓使用者更方便使用*
 
 |Folder| Illustration|
 | :--: | :-- |
