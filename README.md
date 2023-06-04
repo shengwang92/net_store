@@ -263,7 +263,7 @@ string upload_commodity(string _id_buyer, string _id_seller, string _id_commdity
 
 分割商品陣列的函數 Function to split an array of items
 
-![ 分割](./images/split.JPG)
+![ 分割](./images/spilt.JPG)
 
 ```cpp
 //分割商品列表
