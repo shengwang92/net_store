@@ -344,7 +344,7 @@ const vector<string> split(const string& str, const string& pattern) {
     我們提供兩個版本，分別是cmd的C++版和GUI的QT版，兩個都放在Client裡面
     C++檔案位置 C++_Internet_store -> store -> ResponseWithString
     QT檔案位置 QT_Internet_shop -> Internet_shop_
-    ※如要使用GUI請自行下載QT來使用
+    ※如要使用GUI請自行下載QT來使用，如果用QT不能執行或出現錯誤是編譯器不符問題
 
 ### **2.**
     請勿惡意塞資料到伺服器上
