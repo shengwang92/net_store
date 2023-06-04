@@ -322,14 +322,18 @@ const vector<string> split(const string& str, const string& pattern) {
 - Layered System：分層的系統，客戶端不知道他聯絡的是不是最終伺服器。
 - Code on Demand（可選）：伺服器可以將能力擴充到客戶端，如果客戶端可以執行的話。這個功能是可選擇的。
 
+_data_commodity_example.csv僅是範例，參考就好_
+_data_member_example.csv僅是範例，參考就好_
+
 ## About client
+
+*C++_Internet_store提供使用者基礎的網路商店功能*
+*QT_Internet_shop利用QT提供GUI來讓使用者更方便使用*
 
 |Folder| Illustration|
 | :--: | :-- |
-| HTTPRequestGetTest | Project to test http request about get ,z.B:http://140.113.213.57:5125/view_commodity |
-| HTTPRequestPostTest | Project to test http request about post ,z.B:http://140.113.213.57:5125/enroll_member |
-| FunctionTest |Project to test all the functions with response of sting formed in JSON |
-| ResponseWithString |Project to test all the functions with response of sting formed in String |
+| C++_Internet_store |Provide C++ version of the basic online store function |
+| QT_Internet_shop |Use QT to provide GUI to make users more convenient to use |
 
 ## **Instructions for use (使用說明)**
 
