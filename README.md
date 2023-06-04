@@ -322,8 +322,8 @@ const vector<string> split(const string& str, const string& pattern) {
 - Layered System：分層的系統，客戶端不知道他聯絡的是不是最終伺服器。
 - Code on Demand（可選）：伺服器可以將能力擴充到客戶端，如果客戶端可以執行的話。這個功能是可選擇的。
 
-_data_commodity_example.csv僅是範例，參考就好_
-_data_member_example.csv僅是範例，參考就好_
+*data_commodity_example.csv僅是範例，參考就好*
+*data_member_example.csv僅是範例，參考就好*
 
 #
 ## About client
