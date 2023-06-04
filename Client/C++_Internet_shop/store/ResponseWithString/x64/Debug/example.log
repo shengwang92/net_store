@@ -1,0 +1,8 @@
+﻿  Commodity.cpp
+C:\Users\Vitas\OneDrive\Desktop\Internet_store\net_store\Client\C++_Internet_shop\store\ResponseWithString\Commodity.cpp(62,31): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  Commodity_List.cpp
+C:\Users\Vitas\OneDrive\Desktop\Internet_store\net_store\Client\C++_Internet_shop\store\ResponseWithString\Commodity_List.cpp(6,33): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+  main.cpp
+  Member.cpp
+  正在產生程式碼...
+  example.vcxproj -> C:\Users\Vitas\OneDrive\Desktop\Internet_store\net_store\Client\C++_Internet_shop\store\ResponseWithString\x64\Debug\example.exe

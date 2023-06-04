@@ -1,0 +1,10 @@
+_id,name_member,date_enrolled,email_member,password_member,balance_member
+0636c8b6d6cf11edb23008002765f803,test_member_C,20230409 20:06:56,test_member_C@gmail.com,12345678,0
+2ccbf00ad6cf11edb56d08002765f803,test_member_A,20230409 20:08:01,test_member_A@gmail.com,12345678,0
+49674008d6cf11ed9bc908002765f803,test_member_A,20230409 20:08:49,test_member_A@gmail.com,12345678,0
+07535fe3d6d011ed8db308002765f803,test_member_A,20230409 20:14:08,test_member_A@gmail.com,12345678,0
+f98de196d6d611eda75308002765f803,test_member_C,20230409 21:03:51,test_member_C@gmail.com,12345678,0
+b0b30954d6fa11edadd208002765f803,test_member_C,20230410 01:19:31,test_member_C@gmail.com,12345678,0
+e7a1732bd6fc11edbc0208002765f803,test_member_C,20230410 01:35:22,test_member_C@gmail.com,12345678,0
+fc5c7e5dd6b111ed941508002765f803,test_member_B,20230409 16:39:04,test_member_B@gmail.com,12345678,-80
+c667e7c9d67511edb74a08002765f803,test_member_A,20230409 09:28:04,test_member_A@gmail.com,12345678,680
