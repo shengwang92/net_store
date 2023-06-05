@@ -359,6 +359,9 @@ const vector<string> split(const string& str, const string& pattern) {
 ### **4.**
     程式 & 伺服器 & 資料互動 模式簡略圖
 ![ 互動圖](./images/operate.JPG)    
+### **5.**
+    執行範例影片
+[Internet_store example viedo](https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2F7wQjidQEO14%3Ffbclid%3DIwAR2bQ1dHsN106rJxFk8ex50dlwDiqQU8uP0vuHKrCGr0eUbBiN33T1ukDdM&h=AT3_hfCuzv_FQjqX7xOe1wnylD1vpyUxZj_65JHFBBo_8Fq0X5unlmzZUTrxOiAhvxd_Ssnrr2rSjTViWuzNNvH8FVPoo91-0fvr2_6UUyY1i-uB6gk2ZPEoDJpxDqgJmRqulg)
 
 ## **About reference**
 
