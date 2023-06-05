@@ -1,6 +1,6 @@
 # **ShopProject**
 
-### **文化大學 資工1B**
+### **文化大學 資工1B 第四組**
 ### **組長: 王采風  組員: 王可陞&林皓晟**
 
 ### **※If you just want to use the program, you can skip to the end to watch the instructions**
