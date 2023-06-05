@@ -1,5 +1,8 @@
 # **ShopProject**
 
+### **文化大學 資工1B**
+### **組長: 王采風  組員: 王可陞&林皓晟**
+
 ### **※If you just want to use the program, you can skip to the end to watch the instructions**
 ### **(如果只是想要使用程式，可以直接跳到最後觀看使用說明)**
 
@@ -345,7 +348,7 @@ const vector<string> split(const string& str, const string& pattern) {
     C++檔案位置 C++_Internet_store -> store -> ResponseWithString
     QT檔案位置 QT_Internet_shop -> Internet_shop_
     ※如要使用GUI請自行下載QT來使用，如果用QT不能執行或出現錯誤是編譯器不符問題
-    ※如果所有操作接正確但無法使用代表伺服器正在維護
+    ※如果所有操作接正確執行了但無法使用或一直跑不出來結果，代表伺服器正在維護
     
 ### **2.**
     請勿惡意塞資料到伺服器上
